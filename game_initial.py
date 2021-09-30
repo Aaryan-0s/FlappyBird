@@ -9,7 +9,7 @@ icon = pygame.image.load('icon.png')
 pygame.display.set_icon(icon)
 clock = pygame.time.Clock()
 
-# For background image
+# For background Image
 bg_surface = pygame.image.load('background-day.png').convert()
 bg_surface = pygame.transform.scale(bg_surface, (400, 700))
 
