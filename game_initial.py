@@ -13,6 +13,9 @@ clock = pygame.time.Clock()
 bg_surface = pygame.image.load('background-day.png').convert()
 bg_surface = pygame.transform.scale(bg_surface, (400, 700))
 
+# for pipes
+pipe_surface = pygame.image.load("pipe-green.png")
+
 def game_loop():
     while True:
         for event in pygame.event.get():
