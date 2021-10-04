@@ -127,7 +127,7 @@ def logdata():
     if lnam in user and lpass in passw:
         if user.index(lnam) == passw.index(lpass):
             print("sucess")
-            import main
+            import main_game
 
 
         else:
