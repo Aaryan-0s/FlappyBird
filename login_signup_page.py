@@ -94,17 +94,12 @@ def Signin():
     Password_entry = Entry(Entry_frame_details, font='Cambria 15 italic', bd=3, relief=SUNKEN)
     Password_entry.place(x=-140, y=100)
 
-    #Country_label = Label(Entry_frame_details, text="Country", font='Ubuntu', bg="#D1C3BE").place(x=-220,
-                                                                                                  #y=150)
-
-    #Country_entry = Entry(Entry_frame_details, font='Cambria 15 italic', bd=3, relief=SUNKEN)
-    #Country_entry.place(x=-130, y=150)
 
     SubmitButton = Button(Entry_frame_details, text="Submit", font='Helvetica', bg="green", command=signUp).place(
         x=-130,
         y=203)
 
-# Fuction to get into game
+# Fuction to open game
 def logdata():
     con = sqlite3.connect("Login and Registration.db")
     cur = con.cursor()
