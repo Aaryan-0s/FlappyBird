@@ -2,7 +2,7 @@ import pygame
 import sys
 import random
 import json
-import intropage
+import login_signup_page
 
 pygame.mixer.pre_init()
 pygame.init()
