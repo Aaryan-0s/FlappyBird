@@ -48,8 +48,8 @@ def Signin():
                     })
 
         print(' SUCCESSFUL')
-        roe = cur.fetchall()
-        print(roe)
+        data = cur.fetchall()
+        print(data)
 
         con.commit()
         con.close()
